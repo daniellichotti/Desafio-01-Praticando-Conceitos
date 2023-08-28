@@ -1,0 +1,12 @@
+.creation input {
+    background-color: var(--gray-500);
+    color: var(--gray-300);
+    width: 300px; /* Largura desejada */
+    height: 40px; /* Altura desejada */
+    /*border: none; /* Remove a borda */
+    outline: none;  /*Remove a borda de foco */
+}
+
+.creation button {
+    background-color: var(--blue);
+}

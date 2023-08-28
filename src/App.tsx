@@ -1,14 +1,17 @@
 import styles from './App.module.css'
 import { Header } from './components/Header'
+import { TasksCreation } from './components/TasksCreation'
+
+import './global.css';
 
 function App() {
 
   return (
     <div>
       <Header />
-      <div className={styles.wrapper}>
+      <div>
         <main>
-          <p>teste</p>
+          <TasksCreation />
         </main>
         </div>
     </div>
