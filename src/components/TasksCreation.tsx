@@ -7,7 +7,7 @@ export function TasksCreation(){
         <div className={styles.creation}>
             <input type="text" 
             id="meuCampoDeTexto" name="nome" 
-            placeholder="Adicione uma nova tarefa" />
+            placeholder="   Adicione uma nova tarefa" />
             <button type="button">
                 Criar
                 <img src={plus} alt="Sinal de soma"/>
